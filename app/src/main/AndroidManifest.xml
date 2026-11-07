@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
-        android:label="RideAssist"
-        android:theme="@android:style/Theme.Material.Light.NoActionBar"
-        android:supportsRtl="true">
+        android:label="RideAssistant"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
 
         <activity
-            android:name="com.rideassistant.MainActivity"
+            android:name="com.rideassistant.core.MainActivity"
             android:exported="true">
 
             <intent-filter>
@@ -17,6 +15,6 @@
             </intent-filter>
 
         </activity>
-
     </application>
+
 </manifest>
